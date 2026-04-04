@@ -2,7 +2,7 @@ import random
 my_list = [random.randint(1, 100) for _ in range(8)]
 my_list.sort()
 num = random.randint(1,8)
-print (list) #just to see#1
+print (my_list) #just to see#1
 answer = my_list[num]
 print (answer) #just to see#2
 ingame = True
